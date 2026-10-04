@@ -1,0 +1,5 @@
+*Báo cáo phân tích
+-Quản lý tiến trình: Kernel điều phối CPU và các tiến trình. Khi RAM sử dụng 95%, nhiều tiến trình cùng hoạt động có thể khiến máy bị giật lag.
+-Quản lý bộ nhớ: RAM gần đầy khiến hệ điều hành phải sử dụng Swap file (SSD hoặc HDD) trên ổ cứng, làm giảm tốc độ xử lý.
+*Sơ đồ
+User (Người dùng) -> Shell iếp nhận lệnh -> Kernel điều phối tài nguyên -> System Libraries Hỗ trợ ứng dụng -> Hardware CPU, RAM, Storage
